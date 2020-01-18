@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        sh 'echo "Tech Checkout"'
+        sh 'git clone https://github.com/trie168/health-care-backend.git'
       }
     }
 
